@@ -16,7 +16,7 @@ function setCardType(type) {
   ccBgColor02.setAttribute("fill", colors[type][1])
   ccLogo.setAttribute("src", `cc-${type}.svg`)
 }
-setCardType("visa")
+setCardType("default")
 
 globalThis.setCardType = setCardType
 
